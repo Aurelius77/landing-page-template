@@ -1,0 +1,479 @@
+body{
+    margin: 0;
+}
+
+.mobile-nav{
+    display: none;
+}
+
+.modal{
+    display: none;
+}
+
+.navbar{
+    margin-bottom: 5%;
+}
+.navbar, .nav-left, .midnav, .rightnav{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.nav-left{
+    margin-right: auto;
+}
+
+.rightnav{
+    margin-left: auto;
+    background: url('/images/bg-simplify-section-desktop.svg');
+}
+
+.midlist{
+    margin-right: 10px;
+}
+
+
+.right-list{
+    background-color:  hsl(12, 88%, 59%);
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom:10px;
+    border-radius: 15px;
+    color: white;
+    box-shadow: 0 0 0 2px;
+    cursor: pointer;
+    text-align: center;
+    margin-right: 5%;
+}
+
+
+
+
+.section-one{
+    display: flex;
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+
+.left-side{
+    width: 50%;
+    height: 100%;
+  
+}
+
+.right-side{
+    width: 50%;
+    display: block;
+    height: 100%;
+    
+}
+
+#intro{
+    width: 100%;
+}
+
+#header-para{
+    margin-bottom: 10%;
+}
+
+
+
+
+.section-two{
+    margin-left: 10%;
+    display: flex;
+    margin-bottom: 5%;
+}
+
+
+.first{
+    width: 100%;
+}
+
+
+.top{
+    display: flex;
+    margin-top: 5%;
+    width: 100%;
+}
+
+.number{
+    background-color:  hsl(12, 88%, 59%);
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom:10px;
+    border-radius: 15px;
+    color: white;
+    box-shadow: 0 0 0 2px;
+    cursor: pointer;
+    text-align: center;
+    margin-right: 2%;
+}
+
+#center-header{
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+
+.testimonials{
+    display: flex;
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.test{
+    background-color: whitesmoke;
+    width: 30%;
+    text-align: center;
+    height: auto;
+    
+    
+}
+
+#middle{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+.central{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom:10% ;
+}
+
+.central-btn{
+    background-color:  hsl(12, 88%, 59%);
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom:10px;
+    border-radius: 15px;
+    color: white;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 2px 0 black;
+    cursor: pointer;
+    text-align: center;
+
+}
+
+
+.top-footer{
+    background-color: hsl(12, 88%, 59%);
+    display:flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+   
+    
+}
+
+
+#simp{
+    margin-left: 10%;
+    color: white;
+}
+
+#central-btn{
+    margin-left: auto;
+    margin-right: 10%;
+    background-color: white;
+    color:   hsl(12, 88%, 59%);
+}
+
+footer{
+    background-color: hsl(233, 12%, 13%);
+    display: flex;
+    padding-bottom: 10%;
+    
+}
+
+.images{
+    margin-left: 5%;
+    cursor: pointer;
+    margin-right:5%;
+    height: 100%;
+}
+
+#footer-logo{
+    margin-top: 10%;
+    margin-bottom: 50%;
+}
+
+.links{
+    color: white;
+    margin-right: 5%;
+}
+
+#link-one{
+    margin-right: 10%;
+}
+
+.footer-links{
+    list-style: none;
+    cursor: pointer;
+}
+
+.footer-link{
+    margin-bottom: 5%;
+}
+
+
+
+.footer-right{
+    text-align: center;
+    margin-left: auto;
+    margin-right: 5%;
+    color: white;
+}
+
+#input{
+    margin-top: 15%;
+    padding: 10px;
+    border-radius: 15px;
+    height: auto;
+    width: 100%;
+}
+
+#yo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-btn{
+    background-color: hsl(12, 88%, 59%);
+    width: 100%;
+   padding: 10px;
+   border-radius: 15px;
+   cursor: pointer;
+}
+
+.footer-top{
+    display: none;
+}
+
+
+
+@media screen and (min-width: 1024px) {
+    #intro{
+        width: 85%;
+    }
+    #header-txt{
+        font-size: 50px;
+    }
+
+    #header-para{
+        font-size: 16px;
+    }
+
+    .header{
+        font-size: 30px;
+    }
+}
+
+
+
+@media screen and (max-width: 640px) {
+    .navbar{
+        font-size: 12px;
+    }
+
+}
+
+
+
+/*Mobile screen*/
+
+
+@media screen and (max-width: 639px) {
+   
+   .mobile-nav{
+    display: flex;
+    margin-top: 2%;
+   }
+
+   #lg{
+    margin-left: 2%;
+   }
+
+#menu, #close{
+    margin-left: auto;
+    margin-right: 5%;
+    
+}
+  
+
+
+#header-txt{
+    font-size: 40px;
+}
+
+#header-para{
+    font-size: 20px;
+}
+   
+    .navbar{
+        display: none;
+    }
+
+    .section-one, .section-two{
+        display: block;
+        margin-left: 0%;
+        text-align: center;
+    }
+
+
+    .left-side, .right-side{
+        width: 100%;
+        text-align: center;
+    }
+
+    .right-list{
+        margin-bottom: 5%;
+    }
+
+    .testimonials{
+        display: block;
+        text-align: center;
+    }
+
+    .test{
+        margin-left: 4%;
+        width: 90%;
+        padding: 5px;
+        margin-bottom: 5%;
+    }
+
+
+    #middle{
+        margin-right: 0;
+    }
+
+    .top-footer{
+        display: block;
+        padding-bottom: 5%;
+        padding-top: 5%;
+    
+    }
+
+
+    #simp{
+        margin-left: 0%;
+        color: white;
+        text-align: center;
+    }
+    
+    #central-btn{
+        position: relative;
+        left: 35%;
+        text-align: center;
+        background-color: white;
+        color:   hsl(12, 88%, 59%);
+       
+    }
+
+
+    
+
+    footer{
+        display: block;
+        text-align: center;
+        color: white;
+    }
+
+
+    .footer-top{
+        display: block;
+        text-align: center;
+         }
+
+
+     #input{
+            margin-top: 15%;
+            padding: 10px;
+            border-radius: 15px;
+            height: auto;
+            width: 50%;
+            text-align: center;
+        }
+
+
+   .footer-btn{
+    width: 50%;
+   }
+
+
+
+    .images{
+        margin-left: 0%;
+        cursor: pointer;
+        margin-right:0%;
+        height: 100%;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+
+
+
+    #footer-logo{
+        
+        text-align: center;
+        margin-top: 10%;
+        margin-bottom: 15%;
+    }
+
+
+
+  .links, .footer-links{
+    text-align: center;
+    margin-right: none;
+    margin-left: none;
+  }
+
+     .footer-right{
+        display: none;
+     }
+
+     
+     .modal{
+        display: none;
+        background-color: whitesmoke;
+        position:fixed;
+        top: 0;
+        left:0;
+        z-index: 1;
+        width: 50%;
+        height: 100%;
+        transition: 1s;
+        animation: ease-in;
+     }
+
+     #modal-links{
+        list-style: none;
+     }
+
+     .modal-link{
+        margin-bottom: 20%;
+     }
+
+     #close{
+        display:none;
+     }
+
+}
+
+
+@media screen and (max-width: 240px) {
+    #header-txt{
+        font-size: 35px;
+    }
+
+    .modal{
+        font-size: 12px;
+    }
+}
